@@ -1,5 +1,39 @@
+.SearchBar {
+    display: flex;
+}
+
 .SearchBox {
-    padding: 2px;
+    width: 238px;
+    height: 20px;
+    padding: 4px;
+    margin-top: 15px;
+    margin-left: 15px;
+    
+    display: flex;
+    flex-wrap: wrap;
+
+    background: rgba(232, 76, 79, 0.08);
+    border-radius: 34px;
+    border: none;
+    outline: none;
+}
+
+.SearchBox::placeholder {
+    padding: 20px;
+}
+
+
+.NotifiBell {
+    width: 30px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 60px;
+    padding: 4px 0 0 0;
+   
     display: flex;
     justify-content: center;
+    
+    background: #E84C4F;
+    border-radius: 50%;
+    color: white;
 }

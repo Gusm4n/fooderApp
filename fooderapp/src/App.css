@@ -1,7 +1,5 @@
 .App {
-  display: flex;
-  max-width: 450px;
-  text-align: center;
-  background: #000;
+  max-width: 500px;
+  background: #F8F5F2;
 }
 
