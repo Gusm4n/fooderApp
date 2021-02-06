@@ -5,7 +5,9 @@ function SearchBar() {
   return (
     <div className="SearchBar">
         <input type="text" className="SearchBox" placeholder="Exemplo: Rua Turiassu no 74"></input>
-        <div className="NotifiBell"><VscBell /></div>
+        <div className="NotifiBell">
+          <div className="BellPosition"><VscBell /></div>
+          </div>
     </div>
   );
 }
