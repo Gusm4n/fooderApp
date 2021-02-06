@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+/* Menu de ícones*/
+
+
+.PreferenceMenu ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-left: 15px;
+    
+    
+    list-style: none;
+}
+
+.PreferenceMenu li {
+    margin-top: 24px;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #E84C4F;
+}
+
+.PreferenceMenu li + li {
+    margin-left: 15px;
+}
+
+/* Card branco */
+
+.WhiteCard {
+    display: flex;
+    width: 74px;
+    height: 74px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Nome dos Cards */
+
+.CardNames {
+    display: flex;
+}
+
+.CardNames p {
+    margin-top: 8px;
+    margin-left: 15px;
+    width: 74px;
+    align-items: center;
+    text-align: center;
+    color: #3E4462;
+}
