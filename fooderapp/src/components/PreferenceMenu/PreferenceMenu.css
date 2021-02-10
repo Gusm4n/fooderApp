@@ -6,12 +6,12 @@
 
 
 .PreferenceMenu ul {
+    width: calc(100% - 30px);
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    margin-left: 15px;
-    
-    
+    justify-content: space-between;
     list-style: none;
 }
 
@@ -21,10 +21,6 @@
     align-items: center;
     font-size: 28px;
     color: #E84C4F;
-}
-
-.PreferenceMenu li + li {
-    margin-left: 15px;
 }
 
 /* Card branco */
@@ -50,4 +46,58 @@
     align-items: center;
     text-align: center;
     color: #3E4462;
+}
+
+/* Media Query */
+
+@media (max-width: 320px) {
+    .PreferenceMenu ul {
+        width: calc(100% - 25px);
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: space-between;
+        list-style: none;
+    }
+    
+    .PreferenceMenu li {
+        margin-top: 12px;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        color: #E84C4F;
+    }
+
+    .WhiteCard {
+        display: flex;
+        width: 60px;
+        height: 60px;
+        background-color: white;
+        border-radius: 8px;
+        margin-bottom: 12px;
+    }
+
+    .CardNames p {
+        justify-content: space-between;
+        margin: 0 auto;
+
+        font-size: 14px;
+        color: #3E4462;
+    }
+
+}
+
+@media (min-width: 425px) {
+    .CardNames p {
+        justify-content: space-between;
+        margin: 0 auto;
+
+        font-size: 16px;
+        color: #3E4462;
+    }
+
+    .WhiteCard {
+        margin-bottom: 12px;
+    }
 }
