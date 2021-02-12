@@ -5,26 +5,30 @@
 }
 
 .SearchBox {
-    width: 238px;
-    height: 20px;
-    padding: 4px;
-    margin-top: 15px;
-    margin-left: 15px;
-    
     display: flex;
     flex-wrap: wrap;
 
+    margin-top: 15px;
+    margin-left: 15px;
     background: rgba(232, 76, 79, 0.08);
     border-radius: 34px;
     border: none;
     outline: none;
 }
 
+.SearchBar input {
+    width: 238px;
+    /* margin-right: 20px; */
+}
+
+/* Placeholder */
+
 .SearchBox::placeholder {
     padding: 20px;
 }
 
 /* Elemento que envolve o sino */
+
 .NotifiBell {
     width: 30px;
     height: 25px;
@@ -33,7 +37,7 @@
     padding: 4px 0 0 0;
    
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     
     background: #E84C4F;
     border-radius: 50%;
@@ -46,4 +50,31 @@
     display: flex;
 }
 
+@media (min-width: 320px) {
+    .SearchBar input {
+        width: 235px;
+        margin-left: 15px;
+    }
+    
+    .NotifiBell {
+        margin-right: 15px;
+    }
+}
+
+@media (min-width: 375px) {
+    .SearchBar input {
+        margin-right: 25px;    
+    }
+}
+
+@media (min-width: 425px) {
+    .SearchBar input {
+        width: 250px;
+        margin-left: 15px;
+    }
+
+    .NotifiBell {
+        margin-left: 115px;    
+    }
+}
 

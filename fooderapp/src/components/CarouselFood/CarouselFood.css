@@ -10,3 +10,12 @@ h4 {
     padding-top: 15px;
     color: #3E4462;
 }
+
+.BorderP p {
+    height: 100px;
+    background-color: white;
+    border: solid white;
+    border-radius: 8px;
+
+    color:  #3E4462;
+}

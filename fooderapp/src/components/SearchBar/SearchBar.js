@@ -4,7 +4,7 @@ import { VscBell } from "react-icons/vsc";
 function SearchBar() {
   return (
     <div className="SearchBar">
-        <input type="text" className="SearchBox" placeholder="Exemplo: Rua Turiassu no 74"></input>
+        <input type="text" className="SearchBox" placeholder="Ex.: Rua Turiassu no 74"></input>
         <div className="NotifiBell">
           <div className="BellPosition"><VscBell /></div>
           </div>

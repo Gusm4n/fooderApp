@@ -1,5 +1,6 @@
 .App {
   max-width: 500px;
   background: #F8F5F2;
+  overflow: hidden;
 }
 
