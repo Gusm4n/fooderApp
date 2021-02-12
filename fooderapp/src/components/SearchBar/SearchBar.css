@@ -29,7 +29,7 @@
     width: 30px;
     height: 25px;
     margin-top: 15px;
-    margin-left: 60px;
+    margin-left: 15px;
     padding: 4px 0 0 0;
    
     display: flex;
@@ -43,5 +43,7 @@
 /* Posição do sino */
 
 .BellPosition {
-    margin-top: 2px;
+    display: flex;
 }
+
+
